@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jakeblum/CLionProjects/ReadersDigest/KeyWord.h
+iostream
+-
+sstream
+-
+vector
+-
+
+/Users/jakeblum/CLionProjects/ReadersDigest/Thesaurus.cpp
+Thesaurus.h
+/Users/jakeblum/CLionProjects/ReadersDigest/Thesaurus.h
+
+/Users/jakeblum/CLionProjects/ReadersDigest/Thesaurus.h
+KeyWord.h
+/Users/jakeblum/CLionProjects/ReadersDigest/KeyWord.h
+vector
+-
+iostream
+-
+fstream
+-
+sstream
+-
+
