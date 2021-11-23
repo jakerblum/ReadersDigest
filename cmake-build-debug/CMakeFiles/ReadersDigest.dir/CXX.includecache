@@ -14,9 +14,19 @@ sstream
 vector
 -
 
-/Users/jakeblum/CLionProjects/ReadersDigest/Thesaurus.cpp
+/Users/jakeblum/CLionProjects/ReadersDigest/Sorter.cpp
+Sorter.h
+/Users/jakeblum/CLionProjects/ReadersDigest/Sorter.h
+
+/Users/jakeblum/CLionProjects/ReadersDigest/Sorter.h
 Thesaurus.h
 /Users/jakeblum/CLionProjects/ReadersDigest/Thesaurus.h
+iostream
+-
+fstream
+-
+vector
+-
 
 /Users/jakeblum/CLionProjects/ReadersDigest/Thesaurus.h
 KeyWord.h

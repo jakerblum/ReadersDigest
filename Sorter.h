@@ -16,15 +16,16 @@
 
 class Sorter {
     public:
-        Sorter(std::ifstream &infile);
+        Sorter(std::ifstream &infile); // constructor
 
-        void addTarget(std::string add);
-        void score(std::ifstream &infile);
+        void addTarget(KeyWord add); // adds a target keyword to vector
+        void score(std::ifstream &infile); // scores article
+        void printFinalScore(int score); // prints final score and analysis
 
-        void run(std::ifstream &infile);
+        void run(std::ifstream &infile); // runs program
     private:
-        std::vector<std::string> targets;
-        Thesaurus reference;
+        std::vector<KeyWord> targets; // vector of keywords from user input
+        Thesaurus reference; // reference thesaurus from arguments
 };
 
 

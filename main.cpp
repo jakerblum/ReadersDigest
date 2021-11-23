@@ -6,7 +6,6 @@
  */
 
 #include <iostream>
-#include <fstream>
 #include "Sorter.h"
 
 int main(int argc, char *argv[])
@@ -14,8 +13,8 @@ int main(int argc, char *argv[])
     // if two arguments not providec
     if ( argc != 3 ) {
         std::cerr << "Failed to include article to score, or a reference "
-                     "thesaurus.\n\n Typical usage: ./ReadersDigest 'Article' "
-                     "'Thesaurus'\n\n Goodbye.\n";
+                     "thesaurus.\n\nTypical usage: ./ReadersDigest 'Article' "
+                     "'Thesaurus'\n\nGoodbye.\n";
         exit(EXIT_FAILURE);
     }
 
